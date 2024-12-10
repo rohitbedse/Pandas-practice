@@ -1,0 +1,109 @@
+Here’s a categorized list of commonly used *Pandas functions and methods* for data manipulation and analysis:
+
+---
+
+### *Data Creation*
+- pd.Series() - Create a Series.
+- pd.DataFrame() - Create a DataFrame.
+- pd.read_csv() - Read a CSV file.
+- pd.read_excel() - Read an Excel file.
+- pd.read_json() - Read a JSON file.
+- pd.read_sql() - Read SQL query results.
+- pd.read_html() - Read HTML tables.
+- pd.DataFrame.from_dict() - Create DataFrame from a dictionary.
+
+---
+
+### *Data Inspection*
+- .head(n) - View the first n rows.
+- .tail(n) - View the last n rows.
+- .info() - Display summary of the DataFrame.
+- .describe() - Summary statistics of numeric columns.
+- .shape - Get dimensions of the DataFrame.
+- .columns - List all column names.
+- .dtypes - Get data types of columns.
+- .index - Display the index range.
+
+---
+
+### *Data Selection and Filtering*
+- .loc[] - Access rows/columns by labels.
+- .iloc[] - Access rows/columns by position.
+- .at[] - Access a single value by label.
+- .iat[] - Access a single value by position.
+- .query() - Filter data with a query.
+- .isin() - Check for specific values.
+
+---
+
+### *Data Cleaning*
+- .dropna() - Remove missing values.
+- .fillna() - Fill missing values.
+- .replace() - Replace values.
+- .drop() - Remove rows/columns.
+- .duplicated() - Identify duplicates.
+- .drop_duplicates() - Remove duplicate rows.
+
+---
+
+### *Data Transformation*
+- .apply() - Apply a function element-wise.
+- .map() - Apply a function to Series.
+- .astype() - Convert data type.
+- .rename() - Rename columns or index.
+- .sort_values() - Sort rows by column values.
+- .sort_index() - Sort by index.
+
+---
+
+### *Aggregation and Statistics*
+- .mean() - Mean of values.
+- .median() - Median of values.
+- .sum() - Sum of values.
+- .count() - Count non-null values.
+- .min() / .max() - Minimum/Maximum value.
+- .std() - Standard deviation.
+- .corr() - Correlation between columns.
+- .value_counts() - Count occurrences in a Series.
+
+---
+
+### *Group Operations*
+- .groupby() - Group data and apply functions.
+- .agg() - Aggregate with multiple functions.
+- .pivot_table() - Create pivot tables.
+- .crosstab() - Cross-tabulation of two factors.
+
+---
+
+### *Merging and Joining*
+- pd.concat() - Concatenate DataFrames.
+- pd.merge() - Merge DataFrames.
+- .join() - Join DataFrames on index.
+- .append() - Append rows to a DataFrame.
+
+---
+
+### *Visualization*
+- .plot() - Basic plotting of data.
+- .hist() - Histogram plot.
+- .boxplot() - Boxplot of data.
+
+---
+
+  *Date and Time Handling*
+- pd.to_datetime() - Convert to datetime format.
+- .dt.year, .dt.month - Extract year, month, etc.
+- .resample() - Resample time series data.
+
+---
+
+   *File Export*
+- .to_csv() - Save to CSV file.
+- .to_excel() - Save to Excel file.
+- .to_json() - Save to JSON file.
+- .to_sql() - Save to SQL database.
+
+---
+
+This is not an exhaustive list, but these are the most frequently used functions and methods in Pandas. 
